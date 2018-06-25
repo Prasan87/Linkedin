@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Linkedin Test Automation Test Suite">
+
+ <listeners>
+     <listener class-name = "com.linkedin.ExtentReportListener.ExtentReporterNG"/>
+ </listeners>
+
+	<test name="Linkedin Test Cases">
+		<classes>
+			<class name="com.linkedin.testscripts.LoginPageTest"></class>
+			<class name="com.linkedin.testscripts.HomePageTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>

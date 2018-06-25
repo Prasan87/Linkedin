@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Linkedin Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.linkedin.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Linkedin Test Cases(failed)">
+    <classes>
+      <class name="com.linkedin.testscripts.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.linkedin.testscripts.HomePageTest -->
+    </classes>
+  </test> <!-- Linkedin Test Cases(failed) -->
+</suite> <!-- Failed suite [Linkedin Test Automation Test Suite] -->
